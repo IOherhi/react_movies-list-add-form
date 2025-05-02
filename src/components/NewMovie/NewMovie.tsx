@@ -20,7 +20,7 @@ export function NewMovie({ onAdd }: NewMovieProps) {
 
   const urlEror = (url: string): boolean => {
     const pattern =
-    /* eslint-disable-next-line max-len */
+      /* eslint-disable-next-line max-len */
       /^((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=+$,\w]+@)?[A-Za-z0-9.-]+|(?:www\.|[-;:&=+$,\w]+@)[A-Za-z0-9.-]+)((?:\/[+~%/.\w-_]*)?\??(?:[-+=&;%@,.\w_]*)#?(?:[,.!/\\\w]*))?)$/;
 
     if (pattern.test(url)) {
